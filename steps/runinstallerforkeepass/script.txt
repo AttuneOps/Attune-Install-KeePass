@@ -1,0 +1,33 @@
+# Script Variables
+$fileLocation = "c:\software\"
+$installer = "KeePass-2.50-Setup.exe"
+$software = "KeePass"
+$installedApplication = "c:\Program Files\KeePass Password Safe 2\KeePass.exe"
+$arguments = "/VERYSILENT /NORESTART"
+
+# Check if the software is already installed.
+$installed = (Test-Path $installedApplication)
+
+if($installed) 
+{
+	Write-Host "'$software' is already installed."
+}
+else 
+{
+# install software.
+	Write-Host "Running the '$software' installer..."
+    Start-Process -FilePath "$fileLocation$installer" `
+    -ArgumentList "$arguments" -Wait
+    
+# Confirm the software was installed.
+    $installed = (Test-Path $installedApplication)
+    
+    if($installed) 
+    {
+    	Write-Host "'$software' was successfully installed."
+    }
+    else 
+    {
+    	Write-Error "'$software' was not installed."
+    }
+}

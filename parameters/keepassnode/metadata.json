@@ -1,0 +1,6 @@
+{
+    "key": "keepassnode", 
+    "name": "KeePass Node", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.WindowsServer"
+}

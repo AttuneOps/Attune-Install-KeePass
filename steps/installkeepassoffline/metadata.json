@@ -1,0 +1,22 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "installkeepassoffline", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "pushinstallerforkeepass"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "runinstallerforkeepass"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "cleanupinstallerforkeepass"
+        }
+    ], 
+    "name": "Install KeePass - OFFLINE", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

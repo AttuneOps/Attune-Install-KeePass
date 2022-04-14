@@ -1,0 +1,11 @@
+{
+    "archiveKey": "keepass", 
+    "deployPath": "/c$/software/", 
+    "enabled": true, 
+    "key": "pushinstallerforkeepass", 
+    "name": "Push Installer for KeePass", 
+    "osCredKey": "windowsuseradministrator", 
+    "serverKey": "keepassnode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": false
+}
