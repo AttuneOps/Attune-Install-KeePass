@@ -4,7 +4,7 @@
     "key": "keepass", 
     "md5": "bcb7da189b1f47f07d698cc366524064", 
     "name": "KeePass", 
-    "remoteUri": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.50/KeePass-2.50-Setup.exe/download", 
+    "remoteUri": "https://ixpeering.dl.sourceforge.net/project/keepass/KeePass%202.x/2.50/KeePass-2.50-Setup.exe", 
     "size": 4355440, 
     "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
 }
