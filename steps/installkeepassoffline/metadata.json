@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "6436342a-8da4-48e2-9a89-deca2c03ab0c", 
     "isBlueprint": true, 
     "key": "installkeepassoffline", 
     "links": [

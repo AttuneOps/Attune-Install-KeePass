@@ -1,7 +1,9 @@
 {
+    "actionOnStepFail": null, 
     "archiveKey": "keepass", 
     "deployPath": "/c$/software/", 
     "enabled": true, 
+    "externalUuid4": "c0a12bbd-263c-45f2-ab7a-052dee898186", 
     "key": "pushinstallerforkeepass", 
     "name": "Push Installer for KeePass", 
     "osCredKey": "windowsuseradministrator", 

@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "4bd2b5d4-88e4-4fd1-bcde-c277066d44d5", 
     "isBlueprint": true, 
     "key": "installkeepass", 
     "links": [
